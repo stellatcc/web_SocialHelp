@@ -1,1 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Fredoka+One&display=swap');
+
+.subtitle{
+	font-family: 'Fredoka One', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    color: #000;
+    padding-left: 10px;
+}
+
+.text{
+	font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #6A040F;
+    
+}
+
+#home nav{
+    background-color: #FFFFE0;
+}
+
+#home .container{
+    max-width: 100%;
+    background-color: #FFFFE0;
+}
+
+#home h1{
+    font-family: 'Fredoka One', cursive;
+    font-weight: 400;
+    font-size: 70px;
+    color: #6A040F;
+}
+
+#home h2{
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #000;
+}
