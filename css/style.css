@@ -1,9 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Fredoka+One&display=swap');
 
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    background-color: #FFFFE0;
+}
+
 .subtitle{
 	font-family: 'Fredoka One', cursive;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 40px;
     color: #000;
     padding-left: 10px;
 }
@@ -12,17 +23,23 @@
 	font-family: 'Fredoka', sans-serif;
     font-weight: 400;
     font-size: 20px;
-    color: #6A040F;
-    
+    color: #000000;  
+    text-align: justify;
 }
 
-#home nav{
-    background-color: #FFFFE0;
+#home{
+    background-color: #FFFFE0; 
 }
 
-#home .container{
-    max-width: 100%;
+nav{
     background-color: #FFFFE0;
+    font-family: 'Fredoka', sans-serif;
+    width: 100vw;
+    z-index: 10;
+}
+
+#home .card{
+    background-color: #FFFFE0; 
 }
 
 #home h1{
@@ -37,4 +54,36 @@
     font-weight: 400;
     font-size: 40px;
     color: #000;
+}
+
+#about .card{
+    background-color: #FFFFE0;
+}
+
+#info .card{
+    background-color: #FFFFE0;
+}
+
+#info .row{
+    display: flex;
+    justify-content: center;
+}
+
+#fome .card{
+    background-color: #FFFFE0;
+    display: flex;
+    justify-content: center;
+}
+
+#fome .alert{
+    display: flex;
+    justify-content: center;
+}
+
+#moradia .card{
+    background-color: #FFFFE0;
+}
+
+#footer{
+    background-color: #6A040F;
 }
