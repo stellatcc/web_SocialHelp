@@ -7,14 +7,10 @@
 	box-sizing: border-box;
 }
 
-body{
-    background-color: #FFFFE0;
-}
-
 .subtitle{
 	font-family: 'Fredoka One', cursive;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 4vw;
     color: #000;
     padding-left: 10px;
 }
@@ -22,68 +18,85 @@ body{
 .text{
 	font-family: 'Fredoka', sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 3vw;
     color: #000000;  
-    text-align: justify;
 }
 
 #home{
-    background-color: #FFFFE0; 
+    background-color: #FAEDCD;
 }
 
 nav{
-    background-color: #FFFFE0;
-    font-family: 'Fredoka', sans-serif;
-    width: 100vw;
-    z-index: 10;
+    background-color: transparent;
 }
 
 #home .card{
-    background-color: #FFFFE0; 
+    background-color: transparent;
 }
 
-#home h1{
+#hero h1{
     font-family: 'Fredoka One', cursive;
     font-weight: 400;
-    font-size: 70px;
-    color: #6A040F;
+    font-size: 6vw;
+    color: #F25C54;
 }
 
-#home h2{
+#hero h2{
     font-family: 'Fredoka', sans-serif;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 4vw;
     color: #000;
 }
 
-#about .card{
-    background-color: #FFFFE0;
+#sobre{
+    background-color: #FAEDCD;    
 }
 
-#info .card{
-    background-color: #FFFFE0;
+#desenvolvedores{
+    background-color: #FDE74C;
 }
 
-#info .row{
-    display: flex;
-    justify-content: center;
+#desenvolvedores .card{
+    background-color: #FDE74C;
+}
+
+#infos{
+    background-color: #FAEDCD;    
 }
 
 #fome .card{
-    background-color: #FFFFE0;
-    display: flex;
-    justify-content: center;
+    background-color: #9BC53D;
+    width: 30vw;
+    height: 45vh;
 }
 
-#fome .alert{
-    display: flex;
-    justify-content: center;
+#fome h1{
+    color: #9BC53D;
+}
+
+#fome p{
+    color: #FAEDCD;
+    font-size: 3vw;
 }
 
 #moradia .card{
-    background-color: #FFFFE0;
+    background-color: #5BC0EB;
+    width: 30vw;
+    height: 45vh;
+}
+
+#moradia h1{
+    color: #5BC0EB;
+}
+
+#moradia p{
+    color: #FAEDCD;
+    font-size: 3vw;
 }
 
 #footer{
-    background-color: #6A040F;
+    background-color: #F25C54;
 }
+
+
+

@@ -7,223 +7,261 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
     <title>SocialHelp</title>
   </head>
   <body>
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- JavaScript e Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
-    <section id="home">
+    <!-- Embrulho -->
+    <div class="wrapper">
 
-      <!-- Nav -->
-    <nav class="navbar navbar-expand-lg navbar-light px-5">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="Logo do SocialHelp" height="90px" width="90px"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse px-5 justify-content-end" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">Sobre</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#info">Desenvolvedores</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Informa-se
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #DC2F02;">
-                  <li><a class="dropdown-item" href="#fome">Fome</a></li>
-                  <li><a class="dropdown-item" href="#moradia">Moradia</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#news">News</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+        <!-- Home -->
+        <section id="home">
 
-      <!-- Fim nav -->
-
-
-      <!-- Inicio -->
-      <div class="card mb-3 p-5" style="max-width: 100vw;">
-        <div class="row g-0 px-5">
-          <div class="col-md-8 ps-5">
-            <div class="card-body pt-5">
-              <h1 class="card-title">SocialHelp</h1>
-              <h2 class="card-text">Tudo sobre nosso APP!</h2>
-              <p class="card-text"><small class="text-muted">2023</small></p>
-            </div>
-          </div>
-          <div class="col-md-4 pe-5">
-            <img src="img/inicio.png" class="img-fluid rounded-start" alt="Inicio">
-          </div>
-        </div>
-      </div>
-      <!-- FIm inicio -->
-
-    </section>
-
-    <section id="about">
-
-      <div class="card mb-3 p-5" style="max-width: 100vw;">
-        <div class="row g-0 px-5">
-          <div class="col-md-4 pe-5">
-            <img src="img/sobre.png" class="img-fluid rounded3-start" alt="Inicio">
-          </div>
-          <div class="col-md-8 ps-5">
-            <div class="card-body pt-5">
-              <h1 class="card-title subtitle">O que é o aplicativo SocialHelp?</h1>
-              <p class="title pt-5">
-                O tema do nosso grupo visa ajudar pessoas que estão passando por uma fase de necessidade de alimentação e moradia, essas pessoas iriam fazer um cadastro no nosso aplicativo em que diriam o seu nome, seu telefone, a descrição do que estão passando e suas necessidades, após esse cadastro essas informações ficariam disponíveis para as ONGs e voluntários inscritos no aplicativo. <br><br>
-                Na parte da ONG e voluntários, seria necessário um cadastro diferente em que pediria especificar se é ONG ou voluntario e a partir de aí inserir o nome, e-mail, número de contato e um pouco de sua história. Após o cadastro o que apareceria para as ONGs seria as pessoas que precisam de ajuda e para os voluntários as ONGs e pessoas necessitadas.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section>
-
-    <section id="info">
-      <div class="container">
-        <h1 class="text-center subtitle p-5">Desenvolvedores</h1>
-        <div class="row">
-          <div class="col-sm-12">     
-            <div class="row">
-              <div class="col-sm-4">
-                <img src="img/pri.jpeg" style="border-radius: 25px;"class="img-fluid" alt="Imagem 1">
-                <p class="text" style="text-align: center;">Priscila Gonzaga Barbosa</p>
-              </div>
-              <div class="col-sm-4">
-               <img src="img/va.jpeg" style="border-radius: 25px;" class="img-fluid" alt="Imagem 2">
-                <p class="text" style="text-align: center;">Valéria de Freitas</p>
+            <!-- nav -->
+            <nav class="navbar navbar-expand-lg navbar-light px-5">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="Logo do SocialHelp" height="90px" width="90px"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse px-5 justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#desenvolvedores">Desenvolvedores</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Informa-se
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #FA7921;">
+                          <li><a class="dropdown-item" href="#fome">Fome</a></li>
+                          <li><a class="dropdown-item" href="#moradia">Moradia</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#news">News</a>
+                      </li>
+                    </ul>
                   </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-4">
-                <img src="img/ju.jpeg" style="border-radius: 25px;"class="img-fluid" alt="Imagem 1">
-                <p class="text" style="text-align: center;">Julia Nunes</p>
-              </div>
-              <div class="col-sm-4">
-               <img src="img/vini.jpeg" style="border-radius: 25px;" class="img-fluid" alt="Imagem 2">
-                <p class="text" style="text-align: center;">Vinicius</p>
                 </div>
-          </div>
-        </div>
-        </div>
-    </section>
+              </nav>
+            <!-- nav -->
 
-    <section id="fome">
-      <div class="card mb-3 p-5" style="max-width: 100vw;">
-        <h1 class="subtitle" style="text-align: center;">A fome no Brasil</h1>
-        <div class="row g-0 px-5" style="display: flex; justify-content: center;">
-          <div class="col-md-4 ps-5">
-            <div class="card m-3 p-3"  style="background-color: #D00000;">
-              <p class="text" style="color: #FFFFE0;">A fome afeta</p>
-              <h3
-              style=
-              "font-family: 'Fredoka One', cursive;
-              font-weight: 400;
-              font-size: 40px;
-              color: #FFFFE0;"
-              >15,5%</h3>
-              <p class="text" style="color: #FFFFE0;">da população Brasileira.</p>
+              <!-- Social -->
+              <section id="hero" class="text-center text-sm-start pb-5">
+                <div class="container">
+                    <div class="d-sm-flex align-items-center  justify-content-between">
+                        <div>
+                            <h1 class="card-title">SocialHelp</h1>
+                            <h2 class="card-text">Tudo sobre nosso APP!</h2>
+                            <p class="card-text"><small class="text-muted">2023</small></p>
+                        </div>
+                        <a href="">
+                            <img src="img/inicio.png" class="img-fluid" width="300" alt="Ajudando a sociedade">
+                        </a>
+                    </div>
+                </div>
+              </section>
+              <!-- Social -->
+        
+        </section >
+        <!-- end Home -->
+        
+        <!-- About -->
+        <section id="sobre" class="text-center text-sm-start p-5">
+            <div class="container p-5">
+                <div class="d-sm-flex align-items-center  justify-content-between">
+                    <a href="">
+                        <img src="img/sobre.png" class="img-fluid" width="800" alt="img">
+                    </a>
+                    <div>
+                        <h1 class="card-title subtitle" style="color: #E55934;">O que é o aplicativo SocialHelp?</h1>
+                        <p class="title pt-5">
+                            O tema do nosso grupo visa ajudar pessoas que estão passando por uma fase de necessidade de alimentação e moradia, essas pessoas iriam fazer um cadastro no nosso aplicativo em que diriam o seu nome, seu telefone, a descrição do que estão passando e suas necessidades, após esse cadastro essas informações ficariam disponíveis para as ONGs e voluntários inscritos no aplicativo. <br><br>
+                            Na parte da ONG e voluntários, seria necessário um cadastro diferente em que pediria especificar se é ONG ou voluntario e a partir de aí inserir o nome, e-mail, número de contato e um pouco de sua história. Após o cadastro o que apareceria para as ONGs seria as pessoas que precisam de ajuda e para os voluntários as ONGs e pessoas necessitadas.
+                        </p>
+                    </div>                
+                </div>
             </div>
-          </div>
-          <div class="col-md-4 pe-5">
-            <div class="card m-3 p-3 pb-4"  style="background-color: #D00000;">
-              <h3
-              style=
-              "font-family: 'Fredoka One', cursive;
-              font-weight: 400;
-              font-size: 40px;
-              color: #FFFFE0;"
-              >33 Milhões</h3>
-              <p class="text" style="color: #FFFFE0;">de pessoas vivem com escassez alimentar.</p>
+        </section>
+        <!-- end About -->
+
+        <!-- Developers -->
+        <section id="desenvolvedores">
+            <div class="container py-5">
+              <h1 class="subtitle" style="color: #FAEDCD;">Desenvolvedores</h1>
+              <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                  <div class="card">
+                    <div class="card-body text-center p-5">
+                      <img src="img/pri.jpeg" alt="Priscila" class="img-fluid rounded-circle mb-3">
+                      <p class="text">Priscila</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                  <div class="card">
+                    <div class="card-body text-center p-5">
+                      <img src="img/va.jpeg" alt="Valeria" class="img-fluid rounded-circle mb-3">
+                      <p class="text">Valéria</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                  <div class="card">
+                    <div class="card-body text-center p-5">
+                      <img src="img/ju.jpeg" alt="Julia" class="img-fluid rounded-circle mb-3">
+                      <p class="text">Juia</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                  <div class="card">
+                    <div class="card-body text-center p-5">
+                      <img src="img/vini.jpeg" alt="Vinicius" class="img-fluid rounded-circle mb-3">
+                      <p class="text">Vinicius</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
             </div>
-          </div>
-          <p class="text">A fome no Brasil, caracterizada pela privação de alimentos a que uma parcela da população está submetida, é um fenômeno que remonta à formação social e econômica do território nacional. Dentre suas principais causas estão a desigualdade socioeconômica e a má distribuição de renda que caracteriza a população do país, sendo essas também as maiores causas da fome em um contexto mundial. </p>
-        </div>
-      </div>
-    </section>
+        </section>
+        <!-- end Developers -->
 
-    <section id="moradia">
-      <div class="card mb-3 p-5" style="max-width: 100vw;">
-        <h1 class="subtitle" style="text-align: center;">Moradia</h1>
-        <div class="row g-0 px-5" style="display: flex; justify-content: center;">
-          <div class="col-md-4 ps-5">
-            <div class="card m-3 p-3"  style="background-color: #F48C06;">
-              <h3
-              style=
-              "font-family: 'Fredoka One', cursive;
-              font-weight: 400;
-              font-size: 40px;
-              color: #FFFFE0;"
-              >100 milhões</h3>
-              <p class="text" style="color: #FFFFE0;">de pessoas sem moradia no mundo.</p>
-            </div>
-          </div>
-          <div class="col-md-4 pe-5">
-            <div class="card m-3 p-3"  style="background-color: #F48C06;">
-              <h3
-              style=
-              "font-family: 'Fredoka One', cursive;
-              font-weight: 400;
-              font-size: 40px;
-              color: #FFFFE0;"
-              >32 mil</h3>
-              <p class="text" style="color: #FFFFE0;">pessoas vivem em situação de rua no Brasil.</p>
-            </div>
-          </div>
-          <p class="text">Segundo estimativas recentemente realizadas pela Organização das Nações Unidas (ONU), mais de 100 milhões de pessoas em todo o mundo não possuem um lugar para viver, enquanto mais de 1 bilhão residem em moradias inadequadas. Esse problema é uma reprodução das desigualdades sociais e de renda existentes nas sociedades.<br><br>
-            No Brasil, segundo dados do Instituto Brasileiro de Geografia e Estatística (IBGE), mais de 11 milhões de pessoas vivem em favelas ou em moradias consideradas precárias. Se considerarmos que uma moradia adequada é um local que apresenta sistema de fornecimento de água, esgoto, coleta de lixo e, no máximo, duas pessoas por dormitório, apenas 52% da população brasileira vive em condições regulares de residência, segundo o próprio IBGE.
-          </p>
-        </div>
-      </div>
-    </section>
+        <!-- infos -->
+        <section id="infos" class="text-sm-start p-5">
 
-    <section id="news">
+            <!-- fome -->
+            <section id="fome" class="pb-5">
+                <h1 class="subtitle ps-5 pb-2">A fome no Brasil</h1>
+                <center>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <p class="card-text text">A fome afeta</p>
+                                <h3
+                                    style=
+                                    "font-family: 'Fredoka One', cursive;
+                                    font-weight: 400;
+                                    font-size: 3vw;
+                                    color: #FFFFE0;"
+                                    >15,5%</h3>
+                                <p class="card-text text">da população brasileira.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3
+                                    style=
+                                    "font-family: 'Fredoka One', cursive;
+                                    font-weight: 400;
+                                    font-size: 3vw;
+                                    color: #FFFFE0;"
+                                    >33 milhões</h3>
+                                <p class="card-text text">de pessoas vivem com escassez alimentar.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> <br>
+                <p class="ps-5" style="
+                  font-family: 'Fredoka', sans-serif;
+                  font-weight: 400;
+                  font-size: 1.3vw;
+                  color: #000000;">
+                A fome no Brasil, caracterizada pela privação de alimentos a que uma parcela da população está submetida, é um fenômeno que remonta à formação social e econômica do território nacional. Dentre suas principais causas estão a desigualdade socioeconômica e a má distribuição de renda que caracteriza a população do país, sendo essas também as maiores causas da fome em um contexto mundial.</p>
+                </center>
+            </section>
+            <!-- end fome -->
 
-    </section>
+            <!-- moradia -->
+            <section id="moradia" class="pt-5">
+              <h1 class="subtitle ps-5 pb-2">Moradia</h1>
+                <center>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3
+                                    style=
+                                    "font-family: 'Fredoka One', cursive;
+                                    font-weight: 400;
+                                    font-size: 3vw;
+                                    color: #FFFFE0;"
+                                    >100 Milhões</h3>
+                                <p class="card-text text">de pessoas sem moradia no mundo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3
+                                    style=
+                                    "font-family: 'Fredoka One', cursive;
+                                    font-weight: 400;
+                                    font-size: 3vw;
+                                    color: #FFFFE0;"
+                                    >32 mil</h3>
+                                <p class="card-text text">pessoas vivem em situação de rua no Brasil.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> <br>
+                <p class="ps-5" style="
+                  font-family: 'Fredoka', sans-serif;
+                  font-weight: 400;
+                  font-size: 1.3vw;
+                  color: #000000;">
+                Segundo estimativas recentemente realizadas pela Organização das Nações Unidas (ONU), mais de 100 milhões de pessoas em todo o mundo não possuem um lugar para viver, enquanto mais de 1 bilhão residem em moradias inadequadas. Esse problema é uma reprodução das desigualdades sociais e de renda existentes nas sociedades.
+                <br>
+                No Brasil, segundo dados do Instituto Brasileiro de Geografia e Estatística (IBGE), mais de 11 milhões de pessoas vivem em favelas ou em moradias consideradas precárias. Se considerarmos que uma moradia adequada é um local que apresenta sistema de fornecimento de água, esgoto, coleta de lixo e, no máximo, duas pessoas por dormitório, apenas 52% da população brasileira vive em condições regulares de residência, segundo o próprio IBGE.</p>
+                </center>
+            </section>
+            <!-- end moradia -->
 
-    <section id="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h4 class="subtitle">Stella</h4>
-            <p class="text">Somos o grupo de tcc que desenvolveu o app SocialHelp</p>
-          </div>
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h4 class="subtitle">Programas utilizados</h4>
-            <p class="text">Visual Studio Code</p>
-          </div>
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h4 class="subtitle">Contato</h4>
-            <p class="text">
-              <i class="fas fa-mail mmr-3">Stella@tcc</i>
-            </p>
-            <p class="text">
-              <i class="fas fa-number mmr-3">13</i>
-            </p>
-            <p class="text">
-              <i class="fas fa-local mmr-3">ETEC Registro</i>
-            </p>
-          </div>
-          
-        </div>
-      </div>
-    </section>
+        </section>
+        <!-- end infos -->
 
+        <!-- News -->
+        <section id="news">
+
+        </section>
+        <!-- end News -->
+
+        <!-- Footer -->
+        <section id="footer"><br>
+          <div class="text-center d-flex justify-content-center position-relative" id="redes">
+            <a href=" " target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+            <a href=" " target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+          </div>
+        <hr class="border border-light border-1 opacity-25">
+        <p class="text-center text-white">© 2023<br>SocialHelp</p><br>
+        </section>
+        <!-- end Footer -->
+
+    </div>
+    <!-- Embrulho -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
