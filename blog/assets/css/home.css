@@ -1,0 +1,53 @@
+.container-post{
+    padding: 50px 250px;
+}
+
+.post{
+    font-family: 'Fredoka', sans-serif;
+    background-color: beige;
+    border-radius: 5px;
+    margin: 50px 0px;
+    padding: 0 25px;
+    transition: .5s;
+}
+
+.post h3{
+    font-family: 'Fredoka One', cursive;
+    font-weight: 400;
+    font-size: 2vw;
+    color: var(--title);
+}
+
+.post:hover{
+    box-shadow: 5px 0 10px #ff000033;
+}
+
+.top.post{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-post span{
+    font-size: 14px;
+    color: var(text);
+}
+
+.content-post h3{
+    color: var(--subtitle);
+    font-weight: 400;
+}
+
+.top-post,
+.content-post p{
+    padding: 20px 0;
+    color: var(--subtitle);
+}
+
+.top-post i{
+    color: var(--title);
+    cursor: pointer;
+}
+
+.content-post p{
+    font-size: 18px;
+}

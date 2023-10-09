@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Fredoka+One&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    text-decoration: none;
+}
+
+.subtitle{
+	font-family: 'Fredoka One', cursive;
+    font-weight: 400;
+    font-size: 4vw;
+    color: #000;
+    padding-left: 10px;
+}
+
+nav{
+    background-color: transparent;
+}
+
+:root{
+    --bege: #FAEDCD;
+    --white: #fff;
+    --title: #F25C54;
+    --subtitle: #313131;
+    --text: #646464;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: var(--bege);
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.backToTop{
+    position: fixed;
+    bottom: 0;
+    right: 30px;
+    font-size: 40px;
+    color: #FA7921;
+    visibility: hidden;
+    transform: translateY(100%);
+    transition: 0.3s;
+}
+
+.backToTop.show{
+    visibility: visible;
+    bottom: 15px;
+    transform: translateY(0);
+}
+
+.input-search{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.input-search i{
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+}
+
+.input-search :where(input, textarea){
+    width: 100%;
+    padding: 20px 0 20px 70px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    border-radius: 5px;
+    border: none;
+    color: var(--subtitle);
+    outline: none;
+}
+
+.input-search input::placeholder{
+    font-family: 'Fredoka', sans-serif;
+    color: var(--subtitle);
+    opacity: 0.7;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+

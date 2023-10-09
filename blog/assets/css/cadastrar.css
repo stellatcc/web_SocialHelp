@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(211, 211, 164);
+}
+
+h1{
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+}
+
+#header{
+    min-height: 0;
+}
+
+#main :where(.form, .input-search){
+    display: grid;
+    gap: 7px;
+    margin: 0 150px;
+    color: var(--subtitle);
+    font-family: 'Fredoka', sans-serif;
+    font-size: 16px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+}
+
+.input-search :where(input, textarea){
+    padding: 20px;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+input[type="submit"]:hover{
+    border: 1px solid var(--subtitle);
+}

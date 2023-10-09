@@ -15,13 +15,6 @@
     padding-left: 10px;
 }
 
-.text{
-	font-family: 'Fredoka', sans-serif;
-    font-weight: 400;
-    font-size: 3vw;
-    color: #000000;  
-}
-
 #home{
     background-color: #FAEDCD;
 }
@@ -44,7 +37,7 @@ nav{
 #hero h2{
     font-family: 'Fredoka', sans-serif;
     font-weight: 400;
-    font-size: 4vw;
+    font-size: 2vw;
     color: #000;
 }
 
@@ -52,12 +45,20 @@ nav{
     background-color: #FAEDCD;    
 }
 
+#sobre li{
+    background-color: transparent;
+}
+
+#sobre .card{
+    background-color: #FAEDCD;
+}
+
 #desenvolvedores{
-    background-color: #FDE74C;
+    background-color: #FA7921;
 }
 
 #desenvolvedores .card{
-    background-color: #FDE74C;
+    background-color: #FA7921;
 }
 
 #infos{
@@ -96,6 +97,23 @@ nav{
 
 #footer{
     background-color: #F25C54;
+}
+
+.backToTop{
+    position: fixed;
+    bottom: 0;
+    right: 30px;
+    font-size: 40px;
+    color: #5BC0EB;
+    visibility: hidden;
+    transform: translateY(100%);
+    transition: 0.3s;
+}
+
+.backToTop.show{
+    visibility: visible;
+    bottom: 15px;
+    transform: translateY(0);
 }
 
 
