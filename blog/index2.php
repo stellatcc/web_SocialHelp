@@ -46,7 +46,7 @@
                     <a class="nav-link" href="cadastrar.php">Cadastrar</a>
                   </li>
                   <li class="nav-item">
-                    <a href="../index.html"><button type="button" class="btn btn-warning">Voltar</button></a>
+                    <a href="index.php"><button type="button" class="btn btn-warning">Voltar</button></a>
                   </li>
                 </ul>
               </div>
@@ -67,8 +67,7 @@
               </div>
               <div class="content-post">
                 <h3><?= $notice['title_notice']; ?></h3>
-                <p><?= $notice['description_notice']; ?></p>
-                <a href="index2.php"><button type="button" class="btn btn-warning">Saiba mais!</button></a><br><br>
+                <p><?= $notice['all_notice']; ?></p>
               </div>
             </div>
             <?php endforeach; ?>

@@ -18,6 +18,7 @@
     color: var(--title);
 }
 
+
 .post:hover{
     box-shadow: 5px 0 10px #ff000033;
 }

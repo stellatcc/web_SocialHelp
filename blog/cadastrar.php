@@ -47,6 +47,10 @@
                 <input type="text" name="notice" id="inputNotice">
               </div>
               <div class="input-search">
+                <label for="inputText">Notícia inteira:</label>
+                <textarea type="text" name="all" id="inputText"></textarea>
+              </div>
+              <div class="input-search">
                 <label for="inputDescription">Descrição da Notícia:</label>
                 <textarea type="text" name="description" rows="5" id="inputDescription"></textarea>
                 <div class="input-search">
